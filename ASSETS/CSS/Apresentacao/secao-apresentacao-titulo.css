@@ -1,8 +1,8 @@
 .secaoApresentacao__titulo {
-    color: #ffffff;
+    color: var(--branco);
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    text-shadow: 4px 4px 4px orangered;
+    text-shadow: 4px 4px 4px var(--laranja);
     margin-bottom: 1em;
 }
