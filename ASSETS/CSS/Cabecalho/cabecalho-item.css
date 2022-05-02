@@ -1,7 +1,7 @@
 .cabecalho__item {
-    color: #ffffff;
+    color: var(--branco);
     font-size: 18px;
-    margin-left: 12px;
+    margin-left: 1em;
     text-decoration: none;
     display: block;
 }
