@@ -1,7 +1,10 @@
 .form {
     background: #BBBBBB;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
+    border-radius: 10px;
+    padding: 2em;
+}
 
+.container .form {
+    z-index: 1;
+    margin-top: -13%;
 }
