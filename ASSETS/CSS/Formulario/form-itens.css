@@ -1,3 +1,30 @@
-.form__itens {
-    margin-right: 1em;
+.form__itens--label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form__itens--select {
+    font-size: 16px;
+    padding: 8px 5px;
+    width: 10rem;
+}
+
+.form__itens--botao {
+    align-self: flex-end;
+    background: rgba(5, 177, 5, 0.747);
+    border: none;
+    border-radius: 2px;
+    color: var(--branco);
+    font-weight: bold;
+    padding: 12px 5px;
+    width: 10%;
+    height: 85%;
+}
+
+.form__itens--botao:hover {
+    background: rgba(5, 177, 5, 0.918);
+    transition: 0.5s;
+    cursor: pointer;
 }

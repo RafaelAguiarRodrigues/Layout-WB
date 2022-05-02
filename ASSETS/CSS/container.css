@@ -1,5 +1,5 @@
 .container {
-    width: 85%;
+    width: 94%;
     margin: 0 auto;
 }
 
@@ -8,3 +8,10 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.container .form  {
+    width: 85%;
+    margin: 0 auto;
+    align-items: baseline;
+}
+
