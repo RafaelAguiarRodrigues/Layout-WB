@@ -1,0 +1,11 @@
+.cabecalho__item {
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.cabecalho__item:hover {
+    text-decoration: underline;
+}

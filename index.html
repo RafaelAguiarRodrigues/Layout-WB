@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="description">
+    <meta name="viewport" content="width=device-width, initial-scale= 1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WB Realiza | Corretores</title>
+    <link href="./ASSETS/CSS/reset.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="./ASSETS/CSS/container.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Cabecalho/cabecalho.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Cabecalho/cabecalho-titulo.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Cabecalho/cabecalho-item.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Cabecalho/cabecalho-nav.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/principal.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Apresentacao/secao-apresentacao.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Apresentacao/secao-apresentacao-titulo.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Apresentacao/secao-apresentacao-borda.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Apresentacao/secao-apresentacao-subtitulo.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Formulario/form.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Formulario/form-campo.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <h1 class="cabecalho__titulo">
+                <a href="#">WB Realiza</a>
+            </h1>
+            <nav class="cabecalho__Nav">
+                <a href="#" class="cabecalho__item">Home</a>
+                <a href="#" class="cabecalho__item">Sobre Nós</a>
+                <a href="#" class="cabecalho__item">Entre em Contato</a>
+                <a href="#" class="cabecalho__item">Imóveis</a>
+                <a href="#" class="cabecalho__item">Nosso App</a>
+            </nav>
+        </div>
+    </header>
+    <main class="principal">
+        <section class="secaoApresentacao">
+            <div class="container secaoApresentacao__borda">
+                <h2 class="secaoApresentacao__titulo">Encontre o imóvel dos seus sonhos</h2>
+                <h3 class="secaoApresentacao__subtitulo">Os melhores imóveis para você e sua família aqui!</h3>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <form class="form">
+                    <div class="form__campo">
+                        <label for="cidade">Cidade:</label>
+                        <select name="cidade">
+                            <option selected>Todas as cidades</option>
+                            <option>Ceilândia</option>
+                            <option>Taguatinga</option>
+                            <option>Águas Claras</option>
+                        </select>
+                    </div>
+                    <div class="form__campo">
+                        <label for="tipo">Tipo:</label>
+                        <select name="tipo">
+                            <option selected disabled>Tipo de Imóvel</option>
+                            <option>Casa</option>
+                            <option>Apartamento</option>
+                            <option>Fazendas</option>
+                            <option>Chácaras</option>
+                        </select>
+                    </div>
+                    <div class="form__campo">
+                        <label for="quartos">Quartos:</label>
+                        <select name="quartos">
+                            <option selected disabled>Nº de Quartos</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>Qualquer quantidade</option>
+                        </select>
+                    </div>
+                    <div class="form__campo">
+                        <label for="preco">Preço:</label>
+                        <select name="tipo">
+                            <option selected disabled>Preço máximo</option>
+                            <option>5000</option>
+                            <option>10000</option>
+                            <option>15000</option>
+                            <option>Qualquer preço</option>
+                        </select>
+                    </div>
+                    <button>Pesquisar</button>
+                </form>
+            </div>
+        </section>
+        <section>
+            <p>teste teste</p>
+        </section>
+    </main>
+</body>
+
+</html>

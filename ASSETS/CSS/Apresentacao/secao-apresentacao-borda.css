@@ -1,0 +1,6 @@
+.secaoApresentacao__borda {
+    border: 1px none black;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+}

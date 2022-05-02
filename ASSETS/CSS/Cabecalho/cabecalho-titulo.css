@@ -1,0 +1,10 @@
+.cabecalho__titulo  {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+.cabecalho__titulo a {
+    color: orangered;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px white;
+}

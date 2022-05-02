@@ -1,0 +1,10 @@
+.secaoApresentacao {
+    background: url(../../IMG/imagemexemplo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
