@@ -1,0 +1,7 @@
+.novidades__itens {
+    background: var(--bg-card);
+    justify-content: center;
+    max-width: 30%;
+    max-height: auto;
+    margin: 1%;
+}

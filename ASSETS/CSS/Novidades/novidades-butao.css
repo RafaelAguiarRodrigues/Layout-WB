@@ -1,0 +1,15 @@
+.novidades__botao {
+    background-color: var(--bg-butao);
+    border: none;
+    border-radius: 5px;
+    color: var(--branco);
+    display: inline;
+    font-weight: bold;
+    margin-left: 8rem;
+    margin-bottom: 1em;
+    padding: 9px;
+}
+
+.novidades__botao:hover {
+    cursor: pointer;
+}
