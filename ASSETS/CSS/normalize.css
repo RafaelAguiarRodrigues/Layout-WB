@@ -3,10 +3,12 @@
     --branco: #FFFFFF;
     --laranja: orangered;
     --preto: #000000;
+    --cinza: #8a8a8a9c;
 
     --bg-form: #BBBBBB;
     --bg-card: #e7e3b8;
     --bg-butao: orangered;
+    --bg-rodape: #333333;
 }
 
 body {

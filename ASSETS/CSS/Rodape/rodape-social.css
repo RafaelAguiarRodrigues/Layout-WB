@@ -1,0 +1,14 @@
+.rodape__social {
+    flex-flow: row;
+    margin: 0 6%;
+}
+
+.rodape__social___lista {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.rodape__midia {
+    margin: 0 3em;
+}

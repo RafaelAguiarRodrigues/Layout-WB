@@ -33,6 +33,10 @@
     <link href="./ASSETS/CSS/SobreNos/sobre-nos-imagem.css" rel="stylesheet">
     <link href="./ASSETS/CSS/SobreNos/sobre-nos-nome.css" rel="stylesheet">
     <link href="./ASSETS/CSS/SobreNos/sobre-nos-descricao.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Rodape/rodape.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Rodape/rodape-social.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Rodape/rodape-titulo.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/Rodape/rodape-direitos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -44,7 +48,7 @@
             <nav class="cabecalho__Nav">
                 <a href="#" class="cabecalho__item">Home</a>
                 <a href="#sobreNos" class="cabecalho__item">Sobre Nós</a>
-                <a href="#" class="cabecalho__item">Entre em Contato</a>
+                <a href="#rodape" class="cabecalho__item">Entre em Contato</a>
                 <a href="#" class="cabecalho__item">Imóveis</a>
                 <a href="#" class="cabecalho__item">Nosso App</a>
             </nav>
@@ -165,21 +169,30 @@
                 <div class="container__descricao">
                     <p class="sobreNos__descricao">Wendell e Brenda são corretores de imóveis a 2 anos, vendendo
                         centenas de imóveis, com diversos clientes satisfeitos, a missão deles é achar o melhor imóvel
-                        para você e sua família</p>
+                        para você e sua família.</p>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="rodape">
-        <div class="container">
-            <div class="rodape__redesSociais">
-                <ul class="rodape__social">
+    <footer class="rodape" id="rodape">
+        <address>
+            <div class="rodape__social">
+                <ul class="rodape__social___lista">
                     <li><a href="#" class="rodape__midia"><img src="./ASSETS/IMG/facebook.png" alt="Ícone do Facebook"></a></li>
                     <li><a href="#" class="rodape__midia"><img src="./ASSETS/IMG/twitter.png" alt="Ícone do Twitter"></a></li>
                     <li><a href="#" class="rodape__midia"><img src="./ASSETS/IMG/instagram.png" alt="Ícone do Instagram"></a></li>
+                    <h2 class="rodape__titulo">
+                        <a href="#">WB Realiza</a>
+                    </h2>
                 </ul>
+                <div class="rodape__social--contato">
+                    <p class="rodape__creditos">&copy;Todos os direitos reservados</p>
+                    <a href="tel:+5561912341234" class="rodape__creditos">Telefone: 91234-1234</a> 
+                </div>
             </div>
-        </div>
+
+                      
+        </address>
     </footer>
 </body>
 

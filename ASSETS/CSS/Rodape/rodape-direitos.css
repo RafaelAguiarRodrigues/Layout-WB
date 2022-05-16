@@ -1,0 +1,15 @@
+.rodape__social--contato {
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.rodape__creditos {
+    color: white;
+    padding-right: 2rem;
+    text-decoration: none;
+}
+
+.rodape__creditos:last-child:hover {
+    text-decoration: underline;
+}
