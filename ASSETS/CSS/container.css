@@ -20,3 +20,17 @@
     flex-flow: row wrap;
     justify-content: space-between;
 }
+
+.sobreNos__pessoas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container__descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}

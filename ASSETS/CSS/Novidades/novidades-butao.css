@@ -3,9 +3,9 @@
     border: none;
     border-radius: 5px;
     color: var(--branco);
-    display: inline;
     font-weight: bold;
-    margin-left: 8rem;
+    margin-top: 0.5em;
+    margin-left: 1rem;
     margin-bottom: 1em;
     padding: 9px;
 }

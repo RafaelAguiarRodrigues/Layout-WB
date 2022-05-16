@@ -29,6 +29,10 @@
     <link href="./ASSETS/CSS/Novidades/novidades-butao.css" rel="stylesheet">
     <link href="./ASSETS/CSS/Novidades/novidades-subtitulo.css" rel="stylesheet">
     <link href="./ASSETS/CSS/Novidades/novidades-descricao.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/SobreNos/sobre-nos-titulo.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/SobreNos/sobre-nos-imagem.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/SobreNos/sobre-nos-nome.css" rel="stylesheet">
+    <link href="./ASSETS/CSS/SobreNos/sobre-nos-descricao.css" rel="stylesheet">
 </head>
 
 <body>
@@ -39,7 +43,7 @@
             </h1>
             <nav class="cabecalho__Nav">
                 <a href="#" class="cabecalho__item">Home</a>
-                <a href="#" class="cabecalho__item">Sobre Nós</a>
+                <a href="#sobreNos" class="cabecalho__item">Sobre Nós</a>
                 <a href="#" class="cabecalho__item">Entre em Contato</a>
                 <a href="#" class="cabecalho__item">Imóveis</a>
                 <a href="#" class="cabecalho__item">Nosso App</a>
@@ -108,14 +112,14 @@
                 <div class="novidades__container">
                     <figure class="novidades__itens">
                         <img src="./ASSETS/IMG/CasaCard1.jpg" alt="Casa moderna" class="novidades__imagem">
-                        <h3 class="novidades__subtitulo">Imagem 1</h3>
-                        <p class="novidades__descricao">imagem 1 exemplo</p>
+                        <h3 class="novidades__subtitulo">Casa 1</h3>
+                        <p class="novidades__descricao">Casa no Park way</p>
                         <button class="novidades__botao">Detalhes</button>
                     </figure>
                     <figure class="novidades__itens">
-                        <img src="./ASSETS/IMG/CasaCard1.jpg" alt="" class="novidades__imagem">
-                        <h3 class="novidades__subtitulo" Imagem 2>Imagem 2</h3>
-                        <p class="novidades__descricao">imagem 2 exemplo</p>
+                        <img src="./ASSETS/IMG/ApartamentoCard2.jpg" alt="" class="novidades__imagem">
+                        <h3 class="novidades__subtitulo" Imagem 2>Apartamento 1</h3>
+                        <p class="novidades__descricao">Apartamento em Águas Claras</p>
                         <button class="novidades__botao">Detalhes</button>
                     </figure>
                     <figure class="novidades__itens">
@@ -145,7 +149,38 @@
                 </div>
             </div>
         </section>
+        <section class="sobreNos" id="sobreNos">
+            <div class="container">
+                <h2 class="sobreNos__titulo">Sobre Nós</h2>
+                <div class="sobreNos__pessoas">
+                    <figure class="sobreNos__itens">
+                        <div class="sobreNos__imagem sobreNos__imagem--Wendell"></div>
+                        <h3 class="sobreNos__nome">Wendel Rodrigues</h3>
+                    </figure>
+                    <figure class="sobreNos__itens">
+                        <div class="sobreNos__imagem sobreNos__imagem--Brenda"></div>
+                        <h3 class="sobreNos__nome">Brenda Aguiar</h3>
+                    </figure>
+                </div>
+                <div class="container__descricao">
+                    <p class="sobreNos__descricao">Wendell e Brenda são corretores de imóveis a 2 anos, vendendo
+                        centenas de imóveis, com diversos clientes satisfeitos, a missão deles é achar o melhor imóvel
+                        para você e sua família</p>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="rodape">
+        <div class="container">
+            <div class="rodape__redesSociais">
+                <ul class="rodape__social">
+                    <li><a href="#" class="rodape__midia"><img src="./ASSETS/IMG/facebook.png" alt="Ícone do Facebook"></a></li>
+                    <li><a href="#" class="rodape__midia"><img src="./ASSETS/IMG/twitter.png" alt="Ícone do Twitter"></a></li>
+                    <li><a href="#" class="rodape__midia"><img src="./ASSETS/IMG/instagram.png" alt="Ícone do Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
