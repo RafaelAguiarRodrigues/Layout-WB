@@ -8,3 +8,11 @@
     text-decoration: none;
     text-shadow: 2px 2px 2px white;
 }
+
+@media screen and (max-width: 768px) {
+    .cabecalho__titulo, .cabecalho__titulo a {
+        margin-bottom: 2rem;
+        text-align: center;
+        width: 100%;
+    }
+}

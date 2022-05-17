@@ -3,9 +3,16 @@
     font-size: 20px;
     margin-left: 1em;
     text-decoration: none;
-    display: block;
 }
 
 .cabecalho__item:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho__item {
+        border-bottom: 1px solid white;
+        margin: 0;
+        padding: 1rem 0 1rem ;
+    }
 }

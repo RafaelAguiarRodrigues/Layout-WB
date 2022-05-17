@@ -11,6 +11,12 @@
     width: 10rem;
 }
 
+.itens__primeira-opcao {
+    color: gray;
+    text-decoration-color: gray;
+    font-weight: 100;
+}
+
 .form__itens--botao {
     align-self: flex-end;
     background: rgba(5, 177, 5, 0.747);

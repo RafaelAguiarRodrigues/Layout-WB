@@ -1,4 +1,6 @@
 .novidades__imagem {
-    width: 100%;
+    box-sizing: border-box;
+    box-shadow: inset 1px 1px 15px black;
     height: 225px;
+    width: 100%;
 }
