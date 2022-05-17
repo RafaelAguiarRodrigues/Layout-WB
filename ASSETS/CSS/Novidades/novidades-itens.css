@@ -2,7 +2,14 @@
     background: var(--bg-card);
     border-bottom: 1px solid var(--cinza);
     justify-content: center;
-    max-width: 30%;
+    width: 30%;
     max-height: auto;
     margin: 1%;
+}
+
+@media screen and (max-width: 768px) {
+    .novidades__itens {
+        width: 350px;
+        margin: 0 auto 2rem;
+    }
 }

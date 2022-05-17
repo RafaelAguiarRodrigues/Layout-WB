@@ -12,3 +12,18 @@
 .rodape__midia {
     margin: 0 3em;
 }
+
+@media screen and (max-width: 768px) {
+    .rodape__social {
+        padding: 0 0 2rem;
+    }
+
+    .rodape__social___lista {
+        padding: 0 0 2rem;
+        flex-flow: column wrap;
+    }
+
+    .rodape__midia {
+        margin: 0;
+    }
+}
