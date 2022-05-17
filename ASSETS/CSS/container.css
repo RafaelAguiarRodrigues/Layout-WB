@@ -53,7 +53,7 @@
     }
 
     .novidades__container {
-        flex-flow: column wrap;
+        flex-flow: row wrap;
     }
 
     .sobreNos__pessoas {
