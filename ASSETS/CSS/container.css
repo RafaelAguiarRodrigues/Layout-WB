@@ -57,6 +57,6 @@
     }
 
     .sobreNos__pessoas {
-        flex-flow: column wrap;
+        flex-flow: row wrap;
     }
 }

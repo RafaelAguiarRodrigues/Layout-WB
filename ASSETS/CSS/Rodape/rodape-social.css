@@ -1,5 +1,5 @@
 .rodape__social {
-    flex-flow: row;
+    flex-flow: row wrap;
     margin: 0 6%;
 }
 
@@ -20,10 +20,11 @@
 
     .rodape__social___lista {
         padding: 0 0 2rem;
-        flex-flow: column wrap;
+        justify-content: center;
+        flex-flow: row wrap;
     }
 
     .rodape__midia {
-        margin: 0;
+        margin: 0 1em;
     }
 }
