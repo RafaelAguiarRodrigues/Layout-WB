@@ -1,0 +1,19 @@
+.vantagens__titulo {
+    color: var(--laranja);
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 4em;
+    margin: 2rem 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px white;
+}
+
+.vantagens__texto {
+    border-bottom: 1px solid var(--branco);
+    color: var(--branco);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    margin: 4rem 10rem 0;
+    text-align: center;
+}

@@ -11,5 +11,12 @@
 }
 
 .novidades__botao:hover {
+    background-color: var(--bg-butao-ativo);
+    border: 1px solid (--preto);
     cursor: pointer;
+}
+
+.novidades__botao:focus {
+    background-color: var(--bg-butao-ativo);
+    border: 1px solid black;
 }

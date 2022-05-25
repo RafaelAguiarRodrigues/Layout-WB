@@ -9,6 +9,10 @@
     text-decoration: underline;
 }
 
+.cabecalho__item:focus {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
     .cabecalho__item {
         border-bottom: 1px solid white;

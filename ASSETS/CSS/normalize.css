@@ -8,9 +8,14 @@
     --bg-form: #BBBBBB;
     --bg-card: #e7e3b8;
     --bg-butao: orangered;
+    --bg-butao-ativo: rgb(212, 57, 0);
     --bg-rodape: #333333;
 }
 
 body {
     font-family: 'Noto Sans', sans-serif;
+}
+
+abbr {
+    text-decoration: none;
 }
