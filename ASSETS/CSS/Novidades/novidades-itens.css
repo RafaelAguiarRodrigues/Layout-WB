@@ -1,6 +1,8 @@
 .novidades__itens {
     background: var(--bg-card);
     border-bottom: 1px solid var(--cinza);
+    box-sizing: border-box;
+    box-shadow: -1px 1px 10px black;
     justify-content: center;
     width: 30%;
     max-height: auto;
