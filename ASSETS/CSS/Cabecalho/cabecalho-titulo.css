@@ -1,6 +1,6 @@
 .cabecalho__titulo  {
-    font-family: 'Lora', serif;
-    font-weight: bold;
+    font-family: var(--fonte-titulo); 
+    font-weight: 700;
     font-size: 4.5em;
 }
 .cabecalho__titulo a {

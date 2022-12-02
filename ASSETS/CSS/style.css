@@ -37,15 +37,17 @@
 
 :root {
     --branco: #FFFFFF;
+    --cinza: #8a8a8a9c;
     --laranja: orangered;
     --preto: #000000;
-    --cinza: #8a8a8a9c;
 
-    --bg-form: #BBBBBB;
     --bg-card: #d6d6d6;
     --bg-botao: orangered;
     --bg-botao-ativo: rgb(231, 66, 5);
+    --bg-form: #BBBBBB;
     --bg-rodape: #333333;
+
+    --fonte-titulo: 'Lora', serif;
 }
 
 body {

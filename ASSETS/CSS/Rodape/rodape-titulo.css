@@ -1,5 +1,5 @@
 .rodape__titulo {
-    font-family: 'Lora', serif;
+    font-family: var(--fonte-titulo);
     font-weight: bold;
     font-size: 4em;
     margin-left: auto;

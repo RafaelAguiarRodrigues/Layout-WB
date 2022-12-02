@@ -6,7 +6,7 @@
     font-size: 18px;
     font-weight: bold;
     margin-top: 0.5em;
-    margin-left: 1rem;
+    margin-left: 70%;
     margin-bottom: 1em;
     padding: 9px;
 }
@@ -20,4 +20,16 @@
 .novidades__botao:focus {
     background-color: var(--bg-botao-ativo);
     border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+    .novidades__botao {
+        margin-left: 65%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .novidades__botao {
+        margin-left: 60%;
+    }
 }

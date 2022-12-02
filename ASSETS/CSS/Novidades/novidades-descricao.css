@@ -1,6 +1,6 @@
 .novidades__descricao {
     border-bottom: 1px solid gray;
+    font-weight: 400;
     margin: 1rem 1rem 0rem 1rem;
-    padding-bottom: 4rem;
-    height: 4rem;
+    height: 8rem;
 }
