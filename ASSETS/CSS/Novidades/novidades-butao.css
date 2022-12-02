@@ -1,8 +1,9 @@
 .novidades__botao {
-    background-color: var(--bg-butao);
+    background-color: var(--bg-botao);
     border: none;
     border-radius: 5px;
     color: var(--branco);
+    font-size: 18px;
     font-weight: bold;
     margin-top: 0.5em;
     margin-left: 1rem;
@@ -11,12 +12,12 @@
 }
 
 .novidades__botao:hover {
-    background-color: var(--bg-butao-ativo);
+    background-color: var(--bg-botao-ativo);
     border: 1px solid (--preto);
     cursor: pointer;
 }
 
 .novidades__botao:focus {
-    background-color: var(--bg-butao-ativo);
+    background-color: var(--bg-botao-ativo);
     border: 1px solid black;
 }

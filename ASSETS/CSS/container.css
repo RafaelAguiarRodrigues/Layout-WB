@@ -1,18 +1,18 @@
 .container {
-    width: 94%;
     margin: 0 auto;
+    width: 94%;
 }
 
 .cabecalho .container {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
 }
 
 .container .form  {
-    width: 85%;
-    margin: 0 auto;
     align-items: baseline;
+    margin: 0 auto;
+    width: 85%;
 }
 
 .novidades__container {
@@ -22,14 +22,14 @@
 }
 
 .sobreNos__pessoas {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-around;
 }
 
 .container__descricao {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
     width: 70%;
     margin: 0 auto;

@@ -1,0 +1,58 @@
+@import url("./container.css");
+/* apresentação */
+@import url("./Apresentacao/secao-apresentacao.css");
+@import url("./Apresentacao/secao-apresentacao-borda.css");
+@import url("./Apresentacao/secao-apresentacao-subtitulo.css");
+@import url("./Apresentacao/secao-apresentacao-titulo.css");
+/* cabecalho */
+@import url("./Cabecalho/cabecalho.css");
+@import url("./Cabecalho/cabecalho-item.css");
+@import url("./Cabecalho/cabecalho-nav.css");
+@import url("./Cabecalho/cabecalho-titulo.css");
+/* formulario */
+@import url("./Formulario/form.css");
+@import url("./Formulario/form-campo.css");
+@import url("./Formulario/form-itens.css");
+/* novidades */
+@import url("./Novidades/novidades-butao.css");
+@import url("./Novidades/novidades-descricao.css");
+@import url("./Novidades/novidades-imagem.css");
+@import url("./Novidades/novidades-itens.css");
+@import url("./Novidades/novidades-subtitulo.css");
+@import url("./Novidades/novidades-titulo.css");
+/* rodape */
+@import url("./Rodape/rodape.css");
+@import url("./Rodape/rodape-direitos.css");
+@import url("./Rodape/rodape-social.css");
+@import url("./Rodape/rodape-titulo.css");
+/* sobre nos */
+@import url("./SobreNos/sobre-nos-descricao.css");
+@import url("./SobreNos/sobre-nos-imagem.css");
+@import url("./SobreNos/sobre-nos-nome.css");
+@import url("./SobreNos/sobre-nos-titulo.css");
+/* vantagens */
+@import url("./Vantagens/vantagens.css");
+@import url("./Vantagens/vantagens-area.css");
+@import url("./Vantagens/vantagens-textos.css");
+
+:root {
+    --branco: #FFFFFF;
+    --laranja: orangered;
+    --preto: #000000;
+    --cinza: #8a8a8a9c;
+
+    --bg-form: #BBBBBB;
+    --bg-card: #d6d6d6;
+    --bg-botao: orangered;
+    --bg-botao-ativo: rgb(231, 66, 5);
+    --bg-rodape: #333333;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.4;
+}
+
+abbr {
+    text-decoration: none;
+}
